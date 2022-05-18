@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,h2,h3 {
+    font-weight: 800;
+}
+
+/* HEADER-NAV */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: gainsboro;
+    margin-bottom: 20px;
+}
+
+.header-logo img {
+    width: 200px;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header-nav ul li a {
+    color: black;
+}
+
+/* HEADER SEARCH */
+
+.search-input {
+    display: flex;
+    align-items: center;
+}
+
+.search-input input {
+    height: 32px;
+    width: 200px;
+    padding: 0 10px;
+}
+
+.search-input button {
+    padding: 0 5px;
+}
+
+
+/* INTRO */
+
+
+.intro {
+    display: flex;
+    padding: 10px 30px;
+}
+
+.intro-img img {
+    width: 850px;
+    height: 100%;
+}
+
+.intro-text {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.intro-text a {
+    color: black;
+    background: gainsboro;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.intro-text p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.intro-text h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+/* TEXT - CONTENT */
+
+.text-container {
+    padding: 20px 30px;
+
+}
+
+.text-title {
+    font-size: 4rem;
+    text-align: center;
+    background: black;
+    padding: 30px 10px;
+    color: white;
+}
+
+.text-title h2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.text-title p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 35px 0;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 40%;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 40px 45px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.content-box h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+
+.text-content .content-btn {
+    margin-top: 20px;
+    text-align: center;
+    width: 170px;
+    padding: 15px;
+    background: gainsboro;
+    color: black;
+    font-weight: 700;
+}
+
+.text-content a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* SMALL - BOX - SECTİON */
+
+
+
+.small-box-title h2 {
+    font-size: 3rem;
+    text-align: center;
+    background: black;
+    padding: 20px 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    
+}
+
+.small-box-img {
+    display: flex;
+    justify-content: center;
+}
+
+.small-box-img img {
+    width: 700px;
+    min-height: 100%;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.small-box-wrapper  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.small-box {
+    background: gainsboro;
+    margin-top: 30px;
+    width: 30%;
+    text-align: center;
+    padding: 50px 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.small-box h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.small-box p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.small-box img {
+    height: 50px;
+}
+
+.small-box a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    background: white;
+    padding: 5px 30px;
+}
+
+/* TESTIMONIAL */
+
+
+.testimonial-container h2 {
+    font-size: 4rem;
+    text-align: center;
+    background: black;
+    padding: 30px 10px;
+    color: white;
+    margin-block: 15px;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+.testimonial-box {
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    padding: 60px 50px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-box h3 {
+    font-size: 1.7rem;
+    margin-block: 5px;
+}
+
+.testimonial-box h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.testimonial-box p {
+    margin-block: 10px;
+}
+
+.testimonial-img img {
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.social-media img {
+    cursor: pointer;
+}
+
+/* CONTACT US */
+
+.contact-us-container {
+    text-align: center;
+    padding: 40px 50px;
+    background: gainsboro;
+    margin-block: 30px;
+}
+
+.contact-us-container h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.contact-us-container p {
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.contact-us-container a {
+    color: white;
+    background: black;
+    padding: 15px 50px;
+    letter-spacing: 2px;
+}
+
+
+/* SLIDER - SECTION */
+
+.slider-section {
+    padding: 30px;
+}
+
+.slider-section > .slide-container > .slide {
+    display: flex;
+    align-items: center;
+}
+
+.slider-section > .slide-container {
+    display: none;
+}
+
+.slider-section > .slide-container.active {
+    display: block;
+}
+
+.slider-section > .slide-container > .slide .hero-text {
+    background: gainsboro;
+    padding: 50px;
+}
+
+.slider-section > .slide-container > .slide .hero-text h2 {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.slider-section > .slide-container > .slide .hero-text p {
+    padding-block: 20px;
+}
+
+.slide-container > .slide > .image img {
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slide-icon img {
+    padding: 25px;
+    background: black;
+    cursor: pointer;
+}
+
+.slide-icon img:hover {
+    background: hsl(0, 0%, 27%);
+}
+
+.slide-icon {
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
+#next {
+    margin-left: -4px;
+}
+
+
+/* OUR - PROJECTS - SECTION */
+
+.projects-container {
+    background: gainsboro;
+}
+
+.projects-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content: center;
+    
+}
+
+.projects-title {
+    width: 60%;
+    padding: 0 70px;
+}
+
+.projects-title a {
+    background: black;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.projects-title h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    background: white;
+    padding: 10px 15px;
+}
+
+.projects-title p {
+    margin-bottom: 20px;
+    padding-block: 15px;
+}
+
+.projects-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-image img {
+    width: 170px;
+    min-height: 100%;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
+/* STATISTICS */
+
+.statistics-container {
+    width: 100%;
+    height: 65vh;
+    background-image: url(images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+
+.statistics-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(220, 220, 220, 0.8);
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.number-box h2 {
+    background: white;
+    padding: 25px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.number-box p {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 50px;
+    background: gainsboro;
+}
+
+.footer-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+
+.location, .phone, .mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.location img, .phone img , .mail img {
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.footer-nav-list ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav-list ul li a {
+    color: black;
+}
+
+.footer-social-media {
+    display: flex;
+}
+
+.footer-social-media img {
+    height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+}
